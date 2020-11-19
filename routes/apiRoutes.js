@@ -3,11 +3,11 @@ module.exports = function(app) {
 // const router = require('express').Router();
 const Workout = require('../models');
 
-"api/workouts"
+// "api/workouts"
 
-"api/workouts/:id"
+// "api/workouts/:id"
 
-"api/workouts/range"
+// "api/workouts/range"
 //GET requests
 
 app.get("/api/workouts", (req, res) => {
